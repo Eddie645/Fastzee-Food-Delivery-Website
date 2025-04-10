@@ -1,0 +1,121 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(Premium\ Vector\ _\ Food\ doodle\ set\ \(2\).jpg);
+    background-position: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background-color: #ff4757;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    color: #2f3542;
+  }
+  
+  /* Home Section */
+  #home {
+    background: url no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #home h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #ff4757;
+    color: rgb(20, 44, 77);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Menu Section */
+  .menu-item {
+    background-color: #102261;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  button {
+    background-color: #ff4757;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Order Section */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input, select, button {
+    margin: 10px 0;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  /* Contact Section */
+  #contact p {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #8e0909;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
